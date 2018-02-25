@@ -19,7 +19,7 @@
       
       <guid>https://pengxiang.me/home/about/</guid>
       <description>About I am a PhD student in Department of Computer Science at The University of Texas at Austin, starting from Fall 2013. I am supervised by Professor Katrin Erk.
-Before coming to UT Austin, I finished my Bachelor of Engineering in Department of Automation at Tsinghua University, and a double major in Economics in School of Economics and Management.</description>
+My research is in natural language processing (NLP), focusing on computational semantics. Currently I am working on how implicit arguments can be inferred by narrative coherence (prototipical sequences of narrative events and participants), and how such knowledge can be applied to end tasks that require complex reasoning, like reading comprehension.</description>
     </item>
     
     <item>
@@ -65,6 +65,15 @@ Before coming to UT Austin, I finished my Bachelor of Engineering in Department 
       
       <guid>https://pengxiang.me/home/projects/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Experience</title>
+      <link>https://pengxiang.me/home/experience/</link>
+      <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://pengxiang.me/home/experience/</guid>
+      <description> Internships           Google, Payments team Mountain View, CA Summer 2015   Google, Machine Intelligence team Mountain View, CA Summer 2014    TAs           CS 342C Computational Brain Spring 2014   CS 378 Computer Vision &amp;amp; 3D Reconstruction Fall 2014   LIN 353C Introduction to Computational Linguistics Spring 2015   CS 345H Programming Languages: Honors Fall 2016 &amp;amp; Fall 2017   CS 389L Automated Logic Reasoning Spring 2017    </description>
     </item>
     
     <item>
