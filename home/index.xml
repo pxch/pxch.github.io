@@ -2,105 +2,105 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Pengxiang Cheng</title>
-    <link>https://pengxiang.me/home/</link>
+    <link>http://pengxiang.me/home/</link>
     <description>Recent content in Homes on Pengxiang Cheng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Pengxiang Cheng &amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://pengxiang.me/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://pengxiang.me/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://pengxiang.me/home/about/</link>
+      <link>http://pengxiang.me/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://pengxiang.me/home/about/</guid>
+      <guid>http://pengxiang.me/home/about/</guid>
       <description>About I am a PhD student in Department of Computer Science at The University of Texas at Austin, starting from Fall 2013. I am supervised by Professor Katrin Erk.
 My research is in natural language processing (NLP), focusing on computational semantics. Currently I am working on how implicit arguments can be inferred by narrative coherence (prototipical sequences of narrative events and participants), and how such knowledge can be applied to end tasks that require complex reasoning, like reading comprehension.</description>
     </item>
     
     <item>
       <title>Selected Publications</title>
-      <link>https://pengxiang.me/home/publications_selected/</link>
+      <link>http://pengxiang.me/home/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>https://pengxiang.me/home/publications_selected/</guid>
+      <guid>http://pengxiang.me/home/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>https://pengxiang.me/home/publications/</link>
+      <link>http://pengxiang.me/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>https://pengxiang.me/home/publications/</guid>
+      <guid>http://pengxiang.me/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>https://pengxiang.me/home/talks/</link>
+      <link>http://pengxiang.me/home/talks/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://pengxiang.me/home/talks/</guid>
+      <guid>http://pengxiang.me/home/talks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Posts</title>
-      <link>https://pengxiang.me/home/posts/</link>
+      <link>http://pengxiang.me/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://pengxiang.me/home/posts/</guid>
+      <guid>http://pengxiang.me/home/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>https://pengxiang.me/home/projects/</link>
+      <link>http://pengxiang.me/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://pengxiang.me/home/projects/</guid>
+      <guid>http://pengxiang.me/home/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Experience</title>
-      <link>https://pengxiang.me/home/experience/</link>
+      <link>http://pengxiang.me/home/experience/</link>
       <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://pengxiang.me/home/experience/</guid>
+      <guid>http://pengxiang.me/home/experience/</guid>
       <description> Internships           Google, Payments team Mountain View, CA Summer 2015   Google, Machine Intelligence team Mountain View, CA Summer 2014    TAs           CS 342C Computational Brain Spring 2014   CS 378 Computer Vision &amp;amp; 3D Reconstruction Fall 2014   LIN 353C Introduction to Computational Linguistics Spring 2015   CS 345H Programming Languages: Honors Fall 2016 &amp;amp; Fall 2017   CS 389L Automated Logic Reasoning Spring 2017    </description>
     </item>
     
     <item>
       <title>Custom Section</title>
-      <link>https://pengxiang.me/home/teaching/</link>
+      <link>http://pengxiang.me/home/teaching/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://pengxiang.me/home/teaching/</guid>
+      <guid>http://pengxiang.me/home/teaching/</guid>
       <description>This is an example of using the custom widget to create your own homepage section.
 To remove this section, either delete content/home/teaching.md or edit the frontmatter of the file to deactivate the widget by setting active = false.</description>
     </item>
     
     <item>
       <title>Tags</title>
-      <link>https://pengxiang.me/home/tags/</link>
+      <link>http://pengxiang.me/home/tags/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 -0500</pubDate>
       
-      <guid>https://pengxiang.me/home/tags/</guid>
+      <guid>http://pengxiang.me/home/tags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://pengxiang.me/home/contact/</link>
+      <link>http://pengxiang.me/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://pengxiang.me/home/contact/</guid>
+      <guid>http://pengxiang.me/home/contact/</guid>
       <description></description>
     </item>
     
