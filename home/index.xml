@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homes on Academic</title>
+    <title>Homes on Pengxiang Cheng</title>
     <link>https://pengxiang.me/home/</link>
-    <description>Recent content in Homes on Academic</description>
+    <description>Recent content in Homes on Pengxiang Cheng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
+    <copyright>Pengxiang Cheng &amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://pengxiang.me/home/index.xml" rel="self" type="application/rss+xml" />
@@ -18,8 +18,8 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pengxiang.me/home/about/</guid>
-      <description>Biography Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet.</description>
+      <description>About I am a PhD student in Department of Computer Science at The University of Texas at Austin, starting from Fall 2013. I am supervised by Professor Katrin Erk.
+Before coming to UT Austin, I finished my Bachelor of Engineering in Department of Automation at Tsinghua University, and a double major in Economics in School of Economics and Management.</description>
     </item>
     
     <item>
@@ -32,7 +32,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristiq
     </item>
     
     <item>
-      <title>Recent Publications</title>
+      <title>Publications</title>
       <link>https://pengxiang.me/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
