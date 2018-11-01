@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Pengxiang Cheng &amp;copy; 2018</copyright>
-    <lastBuildDate>Sat, 02 Jun 2018 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 27 Jan 2019 00:00:00 -0600</lastBuildDate>
     
 	<atom:link href="http://pengxiang.me/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Implicit Argument Prediction as Reading Comprehension</title>
+      <link>http://pengxiang.me/publication/aaai2019/</link>
+      <pubDate>Sun, 27 Jan 2019 00:00:00 -0600</pubDate>
+      
+      <guid>http://pengxiang.me/publication/aaai2019/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Implicit Argument Prediction with Event Knowledge</title>
