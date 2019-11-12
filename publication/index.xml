@@ -7,15 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Pengxiang Cheng &amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
     
 	<atom:link href="http://pengxiang.me/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Attending to Entities for Better Text Understanding</title>
+      <link>http://pengxiang.me/publication/aaai2020/</link>
+      <pubDate>Sun, 09 Feb 2020 00:00:00 -0500</pubDate>
+      
+      <guid>http://pengxiang.me/publication/aaai2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Implicit Argument Prediction as Reading Comprehension</title>
       <link>http://pengxiang.me/publication/aaai2019/</link>
-      <pubDate>Tue, 29 Jan 2019 00:00:00 -0600</pubDate>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 -0500</pubDate>
       
       <guid>http://pengxiang.me/publication/aaai2019/</guid>
       <description></description>
@@ -24,7 +33,7 @@
     <item>
       <title>Implicit Argument Prediction with Event Knowledge</title>
       <link>http://pengxiang.me/publication/naacl2018/</link>
-      <pubDate>Sat, 02 Jun 2018 00:00:00 -0500</pubDate>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 -0400</pubDate>
       
       <guid>http://pengxiang.me/publication/naacl2018/</guid>
       <description></description>
@@ -33,7 +42,7 @@
     <item>
       <title>Representing Meaning with a Combination of Logical and Distributional Models</title>
       <link>http://pengxiang.me/publication/cl2016/</link>
-      <pubDate>Thu, 01 Dec 2016 00:00:00 -0600</pubDate>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 -0500</pubDate>
       
       <guid>http://pengxiang.me/publication/cl2016/</guid>
       <description></description>
