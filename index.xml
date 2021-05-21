@@ -5,12 +5,101 @@
     <link>https://www.pengxiang.me/</link>
       <atom:link href="https://www.pengxiang.me/index.xml" rel="self" type="application/rss+xml" />
     <description>Pengxiang Cheng</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Pengxiang Cheng © 2020</copyright><lastBuildDate>Sun, 09 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Pengxiang Cheng © 2021</copyright><lastBuildDate>Wed, 15 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Pengxiang Cheng</title>
       <link>https://www.pengxiang.me/</link>
     </image>
+    
+    <item>
+      <title>General Tips</title>
+      <link>https://www.pengxiang.me/tutorials/tacc-tips/general/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.pengxiang.me/tutorials/tacc-tips/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maverick2</title>
+      <link>https://www.pengxiang.me/tutorials/tacc-tips/maverick2/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.pengxiang.me/tutorials/tacc-tips/maverick2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chameleon</title>
+      <link>https://www.pengxiang.me/tutorials/tacc-tips/chameleon/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://www.pengxiang.me/tutorials/tacc-tips/chameleon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CV</title>
+      <link>https://www.pengxiang.me/cv/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.pengxiang.me/cv/</guid>
+      <description>&lt;p&gt;Last updated on 04/15/2020. Also available in &lt;a href=&#34;https://www.pengxiang.me/files/pengxiang_cheng_cv.pdf&#34; target=&#34;_blank&#34;&gt;PDF format&lt;/a&gt;.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h2 style=&#34;font-variant:small-caps;&#34;&gt; Education&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.utexas.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;University of Texas at Austin&lt;/strong&gt;&lt;/a&gt;, Austin, TX&lt;br&gt;
+&lt;em&gt;Ph.D.&lt;/em&gt; candidate in Computer Science, expected June 2020&lt;br&gt;
+&lt;em&gt;Thesis:&lt;/em&gt; Learning Better Latent Representations from Semantic Knowledge&lt;br&gt;
+&lt;em&gt;Advisor:&lt;/em&gt; 
+&lt;a href=&#34;http://www.katrinerk.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Katrin Erk&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://www.tsinghua.edu.cn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Tsinghua University&lt;/strong&gt;&lt;/a&gt;, Beijing, China&lt;br&gt;
+&lt;em&gt;B.Eng.&lt;/em&gt; in Automation and &lt;em&gt;B.Econ.&lt;/em&gt; in Economics, 2013&lt;/p&gt;
+&lt;h3 style=&#34;font-variant:small-caps;&#34;&gt; Publications&lt;/h3&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Pengxiang Cheng&lt;/strong&gt;, Katrin Erk. 2020. 
+&lt;a href=&#34;https://arxiv.org/pdf/1911.04361.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Attending to Entities for Better Text Understanding.&lt;/a&gt; &lt;em&gt;Proceedings of AAAI Conference on Artificial Intelligence (AAAI)&lt;/em&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Pengxiang Cheng&lt;/strong&gt;, Alex Tomkovich, Eric Holgate, Su Wang, and Katrin Erk. 2019. 
+&lt;a href=&#34;https://tac.nist.gov/publications/2019/participant.papers/TAC2019.UTexas.proceedings.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The UTexas System for TAC 2019 SM-KBP Task 3: Hypothesis Detection with Graph Convolutional Networks.&lt;/a&gt; &lt;em&gt;Proceedings of Text Analysis Conference (TAC)&lt;/em&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Pengxiang Cheng&lt;/strong&gt;, Katrin Erk. 2019. 
+&lt;a href=&#34;https://arxiv.org/pdf/1811.03554.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Implicit Argument Prediction as Reading Comprehension.&lt;/a&gt; &lt;em&gt;Proceedings of AAAI Conference on Artificial Intelligence (AAAI)&lt;/em&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Pengxiang Cheng&lt;/strong&gt;, Eric Holgate, Katrin Erk. 2018. 
+&lt;a href=&#34;https://tac.nist.gov/publications/2018/participant.papers/TAC2018.UTexas.proceedings.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The UTexas System for TAC SM-KBP Task 3: Probabilistic Generation of Coherent Hypotheses.&lt;/a&gt; &lt;em&gt;Proceedings of Text Anal- ysis Conference (TAC)&lt;/em&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Pengxiang Cheng&lt;/strong&gt;, Katrin Erk. 2018. 
+&lt;a href=&#34;http://aclweb.org/anthology/N18-1076.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Implicit Argument Prediction with Event Knowledge.&lt;/a&gt; &lt;em&gt;Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL)&lt;/em&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I. Beltagy, Stephen Roller, &lt;strong&gt;Pengxiang Cheng&lt;/strong&gt;, Katrin Erk, Raymond Mooney. 2016. 
+&lt;a href=&#34;http://aclweb.org/anthology/J16-4007.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Representing Meaning with a Combination of Logical and Distributional Models.&lt;/a&gt; &lt;em&gt;Computational Linguistics (CL), 42(4)&lt;/em&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Yalin Sun, &lt;strong&gt;Pengxiang Cheng&lt;/strong&gt;, Shengwei Wang, Hao Lyu, Matthew Lease, Iain Marshal, Byron C. Wallace. 2016. 
+&lt;a href=&#34;https://arxiv.org/pdf/1609.01017.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crowdsourcing Information Extraction for Biomedical Systematic Reviews.&lt;/a&gt; &lt;em&gt;4th AAAI Conference on Human Computation and Crowdsourcing (HCOMP): Works-in-Progress Track&lt;/em&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;research-experience&#34;&gt;Research Experience&lt;/h4&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;industry-experience&#34;&gt;Industry Experience&lt;/h4&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;teaching-experience&#34;&gt;Teaching Experience&lt;/h4&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;service&#34;&gt;Service&lt;/h4&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;awards&#34;&gt;Awards&lt;/h4&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;skills&#34;&gt;Skills&lt;/h4&gt;
+&lt;hr&gt;
+</description>
+    </item>
     
     <item>
       <title>Attending to Entities for Better Text Understanding</title>
