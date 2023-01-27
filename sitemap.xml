@@ -1,84 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://www.pengxiang.me/publication_types/1/</loc>
-    <lastmod>2020-02-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pengxiang.me/publication/iclr2023/</loc>
+    <lastmod>2023-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pengxiang.me/</loc>
+    <lastmod>2023-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pengxiang.me/publication_types/</loc>
+    <lastmod>2023-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pengxiang.me/publication/</loc>
+    <lastmod>2023-05-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.pengxiang.me/publication/aaai2020/</loc>
     <lastmod>2020-02-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pengxiang.me/</loc>
-    <lastmod>2020-02-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pengxiang.me/publication_types/</loc>
-    <lastmod>2020-02-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.pengxiang.me/publication/</loc>
-    <lastmod>2020-02-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.pengxiang.me/publication/tac2019/</loc>
     <lastmod>2019-11-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.pengxiang.me/publication/aaai2019/</loc>
     <lastmod>2019-01-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.pengxiang.me/publication/tac2018/</loc>
     <lastmod>2018-11-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.pengxiang.me/publication/naacl2018/</loc>
     <lastmod>2018-06-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.pengxiang.me/publication_types/2/</loc>
     <lastmod>2016-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.pengxiang.me/publication/cl2016/</loc>
     <lastmod>2016-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.pengxiang.me/authors/admin/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.pengxiang.me/authors/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.pengxiang.me/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.pengxiang.me/post/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.pengxiang.me/talk/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.pengxiang.me/tags/</loc>
   </url>
-  
 </urlset>
