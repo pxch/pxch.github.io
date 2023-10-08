@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="NLP tasks differ in the semantic information they require, and at this time no single semantic representation fulfills all requirements. Logic-based representations characterize sentence structure, but do not capture the graded aspect of meaning. Distributional models give graded similarity ratings for words and phrases, but do not capture sentence structure in the same detail as logic-based approaches. It has therefore been argued that the two are complementary.&lt;br/&gt;We adopt a hybrid approach that combines logical and distributional semantics using probabilistic logic, specifically Markov Logic Networks. In this article, we focus on the three components of a practical system: 1) Logical representation focuses on representing the input problems in probabilistic logic; 2) knowledge base construction creates weighted inference rules by integrating distributional information with other sources; and 3) probabilistic inference involves solving the resulting MLN inference problems efficiently. To evaluate our approach, we use the task of textual entailment, which can utilize the strengths of both logic-based and distributional representations. In particular we focus on the SICK data set, where we achieve state-of-the-art results. We also release a lexical entailment data set of 10,213 rules extracted from the SICK data set, which is a valuable resource for evaluating lexical entailment systems.">
+  <meta name="description" content="Language models contain ranking-based knowledge and are powerful solvers of in-context ranking tasks. For instance, they may have parametric knowledge about the ordering of countries by size or may be able to rank reviews by sentiment. Recent work focuses on pairwise, pointwise, and listwise prompting techniques to elicit a language model&#39;s ranking knowledge. However, we find that even with careful calibration and constrained decoding, prompting-based techniques may not always be self-consistent in the rankings they produce. This motivates us to explore an alternative approach that is inspired by an unsupervised probing method called Contrast-Consistent Search (CCS). The idea is to train a probing model guided by a logical constraint: a model&#39;s representation of a statement and its negation must be mapped to contrastive true-false poles consistently across multiple statements. We hypothesize that similar constraints apply to ranking tasks where all items are related via consistent pairwise or listwise comparisons. To this end, we extend the binary CCS method to Contrast-Consistent Ranking (CCR) by adapting existing ranking methods such as the Max-Margin Loss, Triplet Loss, and Ordinal Regression objective. Our results confirm that, for the same language model, CCR probing outperforms prompting and even performs on a par with prompting much larger language models.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://www.pengxiang.me/publication/cl2016/">
+  <link rel="alternate" hreflang="en-us" href="https://www.pengxiang.me/publication/arxiv2309/">
 
   
 
@@ -213,7 +213,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png">
 
-  <link rel="canonical" href="https://www.pengxiang.me/publication/cl2016/">
+  <link rel="canonical" href="https://www.pengxiang.me/publication/arxiv2309/">
 
   
   
@@ -227,15 +227,15 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Pengxiang Cheng">
-  <meta property="og:url" content="https://www.pengxiang.me/publication/cl2016/">
-  <meta property="og:title" content="Representing Meaning with a Combination of Logical and Distributional Models | Pengxiang Cheng">
-  <meta property="og:description" content="NLP tasks differ in the semantic information they require, and at this time no single semantic representation fulfills all requirements. Logic-based representations characterize sentence structure, but do not capture the graded aspect of meaning. Distributional models give graded similarity ratings for words and phrases, but do not capture sentence structure in the same detail as logic-based approaches. It has therefore been argued that the two are complementary.&lt;br/&gt;We adopt a hybrid approach that combines logical and distributional semantics using probabilistic logic, specifically Markov Logic Networks. In this article, we focus on the three components of a practical system: 1) Logical representation focuses on representing the input problems in probabilistic logic; 2) knowledge base construction creates weighted inference rules by integrating distributional information with other sources; and 3) probabilistic inference involves solving the resulting MLN inference problems efficiently. To evaluate our approach, we use the task of textual entailment, which can utilize the strengths of both logic-based and distributional representations. In particular we focus on the SICK data set, where we achieve state-of-the-art results. We also release a lexical entailment data set of 10,213 rules extracted from the SICK data set, which is a valuable resource for evaluating lexical entailment systems."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="og:url" content="https://www.pengxiang.me/publication/arxiv2309/">
+  <meta property="og:title" content="Unsupervised Contrast-Consistent Ranking with Language Models | Pengxiang Cheng">
+  <meta property="og:description" content="Language models contain ranking-based knowledge and are powerful solvers of in-context ranking tasks. For instance, they may have parametric knowledge about the ordering of countries by size or may be able to rank reviews by sentiment. Recent work focuses on pairwise, pointwise, and listwise prompting techniques to elicit a language model&#39;s ranking knowledge. However, we find that even with careful calibration and constrained decoding, prompting-based techniques may not always be self-consistent in the rankings they produce. This motivates us to explore an alternative approach that is inspired by an unsupervised probing method called Contrast-Consistent Search (CCS). The idea is to train a probing model guided by a logical constraint: a model&#39;s representation of a statement and its negation must be mapped to contrastive true-false poles consistently across multiple statements. We hypothesize that similar constraints apply to ranking tasks where all items are related via consistent pairwise or listwise comparisons. To this end, we extend the binary CCS method to Contrast-Consistent Ranking (CCR) by adapting existing ranking methods such as the Max-Margin Loss, Triplet Loss, and Ordinal Regression objective. Our results confirm that, for the same language model, CCR probing outperforms prompting and even performs on a par with prompting much larger language models."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-04-01T00:00:00-05:00">
+      <meta property="article:published_time" content="2023-10-07T20:58:01-04:00">
     
-    <meta property="article:modified_time" content="2016-12-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-09-13T00:00:00&#43;00:00">
   
 
   
@@ -257,16 +257,16 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.pengxiang.me/publication/cl2016/"
+    "@id": "https://www.pengxiang.me/publication/arxiv2309/"
   },
-  "headline": "Representing Meaning with a Combination of Logical and Distributional Models",
+  "headline": "Unsupervised Contrast-Consistent Ranking with Language Models",
   
-  "datePublished": "2020-04-01T00:00:00-05:00",
-  "dateModified": "2016-12-01T00:00:00Z",
+  "datePublished": "2023-10-07T20:58:01-04:00",
+  "dateModified": "2023-09-13T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "I. Beltagy"
+    "name": "Niklas Stoehr"
   },
   
   "publisher": {
@@ -277,7 +277,7 @@
       "url": "https://www.pengxiang.me/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "NLP tasks differ in the semantic information they require, and at this time no single semantic representation fulfills all requirements. Logic-based representations characterize sentence structure, but do not capture the graded aspect of meaning. Distributional models give graded similarity ratings for words and phrases, but do not capture sentence structure in the same detail as logic-based approaches. It has therefore been argued that the two are complementary.\u003cbr/\u003eWe adopt a hybrid approach that combines logical and distributional semantics using probabilistic logic, specifically Markov Logic Networks. In this article, we focus on the three components of a practical system: 1) Logical representation focuses on representing the input problems in probabilistic logic; 2) knowledge base construction creates weighted inference rules by integrating distributional information with other sources; and 3) probabilistic inference involves solving the resulting MLN inference problems efficiently. To evaluate our approach, we use the task of textual entailment, which can utilize the strengths of both logic-based and distributional representations. In particular we focus on the SICK data set, where we achieve state-of-the-art results. We also release a lexical entailment data set of 10,213 rules extracted from the SICK data set, which is a valuable resource for evaluating lexical entailment systems."
+  "description": "Language models contain ranking-based knowledge and are powerful solvers of in-context ranking tasks. For instance, they may have parametric knowledge about the ordering of countries by size or may be able to rank reviews by sentiment. Recent work focuses on pairwise, pointwise, and listwise prompting techniques to elicit a language model's ranking knowledge. However, we find that even with careful calibration and constrained decoding, prompting-based techniques may not always be self-consistent in the rankings they produce. This motivates us to explore an alternative approach that is inspired by an unsupervised probing method called Contrast-Consistent Search (CCS). The idea is to train a probing model guided by a logical constraint: a model's representation of a statement and its negation must be mapped to contrastive true-false poles consistently across multiple statements. We hypothesize that similar constraints apply to ranking tasks where all items are related via consistent pairwise or listwise comparisons. To this end, we extend the binary CCS method to Contrast-Consistent Ranking (CCR) by adapting existing ranking methods such as the Max-Margin Loss, Triplet Loss, and Ordinal Regression objective. Our results confirm that, for the same language model, CCR probing outperforms prompting and even performs on a par with prompting much larger language models."
 }
 </script>
 
@@ -295,7 +295,7 @@
 
 
 
-  <title>Representing Meaning with a Combination of Logical and Distributional Models | Pengxiang Cheng</title>
+  <title>Unsupervised Contrast-Consistent Ranking with Language Models | Pengxiang Cheng</title>
 
 </head>
 
@@ -444,7 +444,7 @@
 
   
   <div class="article-container pt-3">
-    <h1>Representing Meaning with a Combination of Logical and Distributional Models</h1>
+    <h1>Unsupervised Contrast-Consistent Ranking with Language Models</h1>
 
     
 
@@ -454,9 +454,9 @@
         
   
   
-  <span><a href="https://beltagy.net" target="_blank">I. Beltagy</a></span>, <span><a href="https://www.stephenroller.com" target="_blank">Stephen Roller</a></span>, <span><strong>Pengxiang Cheng</strong></span>, <span><a href="http://www.katrinerk.com" target="_blank">Katrin Erk</a></span>, and <span><a href="http://www.cs.utexas.edu/~mooney/" target="_blank">Raymond J. Mooney</a></span>.
-            <i>Computational Linguistics</i>,
-          2016.
+  <span>Niklas Stoehr</span>, <span><strong>Pengxiang Cheng</strong></span>, <span>Jing Wang</span>, <span>Daniel Preoțiuc-Pietro</span>, and <span>Rajarshi Bhowmik</span>.
+            <i>arXiv</i>,
+          2023.
       </div>
 
       
@@ -468,7 +468,7 @@
           
             
           
-        <a class="btn btn-outline-primary my-1 mr-1" href="http://aclweb.org/anthology/J16-4007.pdf" target="_blank" rel="noopener">
+        <a class="btn btn-outline-primary my-1 mr-1" href="https://browse.arxiv.org/pdf/2309.06991.pdf" target="_blank" rel="noopener">
           PDF
         </a>
         
@@ -479,14 +479,11 @@
 
 
 
+
   
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/cl2016/beltagy-etal-cl2016.bib">
-  BibTeX
-</button>
 
 
 
@@ -506,24 +503,6 @@
 
 
 
-
-
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <a class="btn btn-outline-primary my-1 mr-1" href="http://aclweb.org/anthology/J16-4007" target="_blank" rel="noopener">
-            
-            ACL Proceedings
-          </a>
         
 
       </div>
@@ -534,24 +513,14 @@
 
     
     
-    <div class="row pb-2">
-      <div class="col-12 col-md-3 pub-row-heading">DOI</div>
-      <div class="col-12 col-md-9">
-        <a href="https://doi.org/10.1162/COLI_a_00266" target="_blank" rel="noopener">
-          10.1162/COLI_a_00266
-        </a>
-      </div>
-    </div>
-    <div class="d-md-none space-below"></div>
-    
 
     
     
     <div class="row pb-2">
       <div class="col-12 col-md-3 pub-row-heading">arXiv</div>
       <div class="col-12 col-md-9">
-        <a href="https://arxiv.org/abs/1505.06816" target="_blank" rel="noopener">
-          arxiv:1505.06816
+        <a href="https://arxiv.org/abs/2309.06991" target="_blank" rel="noopener">
+          arxiv:2309.06991
         </a>
       </div>
     </div>
@@ -561,30 +530,17 @@
     
     <div class="row">
       <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-      <div class="col-12 col-md-9">Computational Linguistics, 42(4)</div>
+      <div class="col-12 col-md-9">arXiv</div>
     </div>
     <div class="d-md-none space-below"></div>
     
 
-    
-    <div class="row">
-      <div class="col-12 col-md-3 pub-row-heading">Type</div>
-      <div class="col-12 col-md-9">
-        
-        
-        <a href="/publication/#2">
-          Journal article
-        </a>
-        
-      </div>
-    </div>
-    <div class="d-md-none space-below"></div>
     
 
     
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">NLP tasks differ in the semantic information they require, and at this time no single semantic representation fulfills all requirements. Logic-based representations characterize sentence structure, but do not capture the graded aspect of meaning. Distributional models give graded similarity ratings for words and phrases, but do not capture sentence structure in the same detail as logic-based approaches. It has therefore been argued that the two are complementary.<br/>We adopt a hybrid approach that combines logical and distributional semantics using probabilistic logic, specifically Markov Logic Networks. In this article, we focus on the three components of a practical system: 1) Logical representation focuses on representing the input problems in probabilistic logic; 2) knowledge base construction creates weighted inference rules by integrating distributional information with other sources; and 3) probabilistic inference involves solving the resulting MLN inference problems efficiently. To evaluate our approach, we use the task of textual entailment, which can utilize the strengths of both logic-based and distributional representations. In particular we focus on the SICK data set, where we achieve state-of-the-art results. We also release a lexical entailment data set of 10,213 rules extracted from the SICK data set, which is a valuable resource for evaluating lexical entailment systems.</p>
+    <p class="pub-abstract">Language models contain ranking-based knowledge and are powerful solvers of in-context ranking tasks. For instance, they may have parametric knowledge about the ordering of countries by size or may be able to rank reviews by sentiment. Recent work focuses on pairwise, pointwise, and listwise prompting techniques to elicit a language model&rsquo;s ranking knowledge. However, we find that even with careful calibration and constrained decoding, prompting-based techniques may not always be self-consistent in the rankings they produce. This motivates us to explore an alternative approach that is inspired by an unsupervised probing method called Contrast-Consistent Search (CCS). The idea is to train a probing model guided by a logical constraint: a model&rsquo;s representation of a statement and its negation must be mapped to contrastive true-false poles consistently across multiple statements. We hypothesize that similar constraints apply to ranking tasks where all items are related via consistent pairwise or listwise comparisons. To this end, we extend the binary CCS method to Contrast-Consistent Ranking (CCR) by adapting existing ranking methods such as the Max-Margin Loss, Triplet Loss, and Ordinal Regression objective. Our results confirm that, for the same language model, CCR probing outperforms prompting and even performs on a par with prompting much larger language models.</p>
     
 
     <div class="space-below"></div>
