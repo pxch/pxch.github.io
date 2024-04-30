@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Implicit arguments are not syntactically connected to their predicates, and are therefore hard to extract. Previous work has used models with large numbers of features, evaluated on very small datasets. We propose to train models for implicit argument prediction on a simple cloze task, for which data can be generated automatically at scale. This allows us to use a neural model, which draws on narrative coherence and entity salience for predictions. We show that our model has superior performance on both synthetic and natural data.">
+  <meta name="description" content="Language models contain ranking-based knowledge and are powerful solvers of in-context ranking tasks. For instance, they may have parametric knowledge about the ordering of countries by size or may be able to rank product reviews by sentiment. We compare pairwise, pointwise and listwise prompting techniques to elicit a language model’s ranking knowledge. However, we find that even with careful calibration and constrained decoding, prompting-based techniques may not always be self-consistent in the rankings they produce. This motivates us to explore an alternative approach that is inspired by an unsupervised probing method called Contrast-Consistent Search (CCS). The idea is to train a probe guided by a logical constraint: a language model’s representation of a statement and its negation must be mapped to contrastive true-false poles consistently across multiple statements. We hypothesize that similar constraints apply to ranking tasks where all items are related via consistent, pairwise or listwise comparisons. To this end, we extend the binary CCS method to Contrast-Consistent Ranking (CCR) by adapting existing ranking methods such as the Max-Margin Loss, Triplet Loss and an Ordinal Regression objective. Across different models and datasets, our results confirm that CCR probing performs better or, at least, on a par with prompting.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://www.pengxiang.me/publication/naacl2018/">
+  <link rel="alternate" hreflang="en-us" href="https://www.pengxiang.me/publication/eacl2024/">
 
   
 
@@ -213,7 +213,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png">
 
-  <link rel="canonical" href="https://www.pengxiang.me/publication/naacl2018/">
+  <link rel="canonical" href="https://www.pengxiang.me/publication/eacl2024/">
 
   
   
@@ -227,15 +227,15 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Pengxiang Cheng">
-  <meta property="og:url" content="https://www.pengxiang.me/publication/naacl2018/">
-  <meta property="og:title" content="Implicit Argument Prediction with Event Knowledge | Pengxiang Cheng">
-  <meta property="og:description" content="Implicit arguments are not syntactically connected to their predicates, and are therefore hard to extract. Previous work has used models with large numbers of features, evaluated on very small datasets. We propose to train models for implicit argument prediction on a simple cloze task, for which data can be generated automatically at scale. This allows us to use a neural model, which draws on narrative coherence and entity salience for predictions. We show that our model has superior performance on both synthetic and natural data."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="og:url" content="https://www.pengxiang.me/publication/eacl2024/">
+  <meta property="og:title" content="Unsupervised Contrast-Consistent Ranking with Language Models | Pengxiang Cheng">
+  <meta property="og:description" content="Language models contain ranking-based knowledge and are powerful solvers of in-context ranking tasks. For instance, they may have parametric knowledge about the ordering of countries by size or may be able to rank product reviews by sentiment. We compare pairwise, pointwise and listwise prompting techniques to elicit a language model’s ranking knowledge. However, we find that even with careful calibration and constrained decoding, prompting-based techniques may not always be self-consistent in the rankings they produce. This motivates us to explore an alternative approach that is inspired by an unsupervised probing method called Contrast-Consistent Search (CCS). The idea is to train a probe guided by a logical constraint: a language model’s representation of a statement and its negation must be mapped to contrastive true-false poles consistently across multiple statements. We hypothesize that similar constraints apply to ranking tasks where all items are related via consistent, pairwise or listwise comparisons. To this end, we extend the binary CCS method to Contrast-Consistent Ranking (CCR) by adapting existing ranking methods such as the Max-Margin Loss, Triplet Loss and an Ordinal Regression objective. Across different models and datasets, our results confirm that CCR probing performs better or, at least, on a par with prompting."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-04-01T00:00:00-05:00">
+      <meta property="article:published_time" content="2023-10-07T20:58:01-04:00">
     
-    <meta property="article:modified_time" content="2018-06-02T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2024-03-18T00:00:00&#43;00:00">
   
 
   
@@ -257,16 +257,16 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.pengxiang.me/publication/naacl2018/"
+    "@id": "https://www.pengxiang.me/publication/eacl2024/"
   },
-  "headline": "Implicit Argument Prediction with Event Knowledge",
+  "headline": "Unsupervised Contrast-Consistent Ranking with Language Models",
   
-  "datePublished": "2020-04-01T00:00:00-05:00",
-  "dateModified": "2018-06-02T00:00:00Z",
+  "datePublished": "2023-10-07T20:58:01-04:00",
+  "dateModified": "2024-03-18T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Pengxiang Cheng"
+    "name": "Niklas Stoehr"
   },
   
   "publisher": {
@@ -277,7 +277,7 @@
       "url": "https://www.pengxiang.me/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Implicit arguments are not syntactically connected to their predicates, and are therefore hard to extract. Previous work has used models with large numbers of features, evaluated on very small datasets. We propose to train models for implicit argument prediction on a simple cloze task, for which data can be generated automatically at scale. This allows us to use a neural model, which draws on narrative coherence and entity salience for predictions. We show that our model has superior performance on both synthetic and natural data."
+  "description": "Language models contain ranking-based knowledge and are powerful solvers of in-context ranking tasks. For instance, they may have parametric knowledge about the ordering of countries by size or may be able to rank product reviews by sentiment. We compare pairwise, pointwise and listwise prompting techniques to elicit a language model’s ranking knowledge. However, we find that even with careful calibration and constrained decoding, prompting-based techniques may not always be self-consistent in the rankings they produce. This motivates us to explore an alternative approach that is inspired by an unsupervised probing method called Contrast-Consistent Search (CCS). The idea is to train a probe guided by a logical constraint: a language model’s representation of a statement and its negation must be mapped to contrastive true-false poles consistently across multiple statements. We hypothesize that similar constraints apply to ranking tasks where all items are related via consistent, pairwise or listwise comparisons. To this end, we extend the binary CCS method to Contrast-Consistent Ranking (CCR) by adapting existing ranking methods such as the Max-Margin Loss, Triplet Loss and an Ordinal Regression objective. Across different models and datasets, our results confirm that CCR probing performs better or, at least, on a par with prompting."
 }
 </script>
 
@@ -295,7 +295,7 @@
 
 
 
-  <title>Implicit Argument Prediction with Event Knowledge | Pengxiang Cheng</title>
+  <title>Unsupervised Contrast-Consistent Ranking with Language Models | Pengxiang Cheng</title>
 
 </head>
 
@@ -444,7 +444,7 @@
 
   
   <div class="article-container pt-3">
-    <h1>Implicit Argument Prediction with Event Knowledge</h1>
+    <h1>Unsupervised Contrast-Consistent Ranking with Language Models</h1>
 
     
 
@@ -454,9 +454,9 @@
         
   
   
-  <span><strong>Pengxiang Cheng</strong></span> and <span><a href="http://www.katrinerk.com" target="_blank">Katrin Erk</a></span>.
-            <i>NAACL</i>,
-          2018.
+  <span>Niklas Stoehr</span>, <span><strong>Pengxiang Cheng</strong></span>, <span>Jing Wang</span>, <span>Daniel Preoțiuc-Pietro</span>, and <span>Rajarshi Bhowmik</span>.
+            <i>EACL</i>,
+          2024.
       </div>
 
       
@@ -468,7 +468,7 @@
           
             
           
-        <a class="btn btn-outline-primary my-1 mr-1" href="http://aclweb.org/anthology/N18-1076.pdf" target="_blank" rel="noopener">
+        <a class="btn btn-outline-primary my-1 mr-1" href="https://aclanthology.org/2024.eacl-long.54.pdf" target="_blank" rel="noopener">
           PDF
         </a>
         
@@ -484,19 +484,12 @@
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/naacl2018/cheng-erk-naacl2018.bib">
+        data-filename="/publication/eacl2024/niklas-etal-eacl2024.bib">
   BibTeX
 </button>
 
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/pxch/event_imp_arg" target="_blank" rel="noopener">
-  Code
-</a>
 
 
 
@@ -504,15 +497,6 @@
 
 
 
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="/publication/naacl2018/cheng_erk_naacl2018_poster.pdf" target="_blank" rel="noopener">
-  Poster
-</a>
 
 
 
@@ -536,7 +520,7 @@
           
             
           
-          <a class="btn btn-outline-primary my-1 mr-1" href="http://aclweb.org/anthology/N18-1076" target="_blank" rel="noopener">
+          <a class="btn btn-outline-primary my-1 mr-1" href="https://aclanthology.org/2024.eacl-long.54/" target="_blank" rel="noopener">
             
             ACL Anthology
           </a>
@@ -550,24 +534,14 @@
 
     
     
-    <div class="row pb-2">
-      <div class="col-12 col-md-3 pub-row-heading">DOI</div>
-      <div class="col-12 col-md-9">
-        <a href="https://doi.org/10.18653/v1/N18-1076" target="_blank" rel="noopener">
-          10.18653/v1/N18-1076
-        </a>
-      </div>
-    </div>
-    <div class="d-md-none space-below"></div>
-    
 
     
     
     <div class="row pb-2">
       <div class="col-12 col-md-3 pub-row-heading">arXiv</div>
       <div class="col-12 col-md-9">
-        <a href="https://arxiv.org/abs/1802.07226" target="_blank" rel="noopener">
-          arxiv:1802.07226
+        <a href="https://arxiv.org/abs/2309.06991" target="_blank" rel="noopener">
+          arxiv:2309.06991
         </a>
       </div>
     </div>
@@ -577,7 +551,7 @@
     
     <div class="row">
       <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-      <div class="col-12 col-md-9">Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers)</div>
+      <div class="col-12 col-md-9">Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)</div>
     </div>
     <div class="d-md-none space-below"></div>
     
@@ -600,7 +574,7 @@
     
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Implicit arguments are not syntactically connected to their predicates, and are therefore hard to extract. Previous work has used models with large numbers of features, evaluated on very small datasets. We propose to train models for implicit argument prediction on a simple cloze task, for which data can be generated automatically at scale. This allows us to use a neural model, which draws on narrative coherence and entity salience for predictions. We show that our model has superior performance on both synthetic and natural data.</p>
+    <p class="pub-abstract">Language models contain ranking-based knowledge and are powerful solvers of in-context ranking tasks. For instance, they may have parametric knowledge about the ordering of countries by size or may be able to rank product reviews by sentiment. We compare pairwise, pointwise and listwise prompting techniques to elicit a language model’s ranking knowledge. However, we find that even with careful calibration and constrained decoding, prompting-based techniques may not always be self-consistent in the rankings they produce. This motivates us to explore an alternative approach that is inspired by an unsupervised probing method called Contrast-Consistent Search (CCS). The idea is to train a probe guided by a logical constraint: a language model’s representation of a statement and its negation must be mapped to contrastive true-false poles consistently across multiple statements. We hypothesize that similar constraints apply to ranking tasks where all items are related via consistent, pairwise or listwise comparisons. To this end, we extend the binary CCS method to Contrast-Consistent Ranking (CCR) by adapting existing ranking methods such as the Max-Margin Loss, Triplet Loss and an Ordinal Regression objective. Across different models and datasets, our results confirm that CCR probing performs better or, at least, on a par with prompting.</p>
     
 
     <div class="space-below"></div>

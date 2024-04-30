@@ -5,7 +5,7 @@
     <link>https://www.pengxiang.me/</link>
       <atom:link href="https://www.pengxiang.me/index.xml" rel="self" type="application/rss+xml" />
     <description>Pengxiang Cheng</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Pengxiang Cheng © 2021</copyright><lastBuildDate>Wed, 13 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Pengxiang Cheng © 2021</copyright><lastBuildDate>Mon, 18 Mar 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Pengxiang Cheng</title>
@@ -14,9 +14,9 @@
     
     <item>
       <title>Unsupervised Contrast-Consistent Ranking with Language Models</title>
-      <link>https://www.pengxiang.me/publication/arxiv2309/</link>
-      <pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.pengxiang.me/publication/arxiv2309/</guid>
+      <link>https://www.pengxiang.me/publication/eacl2024/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.pengxiang.me/publication/eacl2024/</guid>
       <description></description>
     </item>
     
