@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="Learned Sparse Retrieval (LSR) models encode text as weighted term vectors, which need to be sparse to leverage inverted index structures during retrieval. SPLADE, the most popular LSR model, uses FLOPS regularization to encourage vector sparsity during training. However, FLOPS regularization does not ensure sparsity among terms - only within a given query or document. Terms with very high Document Frequencies (DFs) substantially increase latency in production retrieval engines, such as Apache Solr, due to their lengthy posting lists. To address the issue of high DFs, we present a new variant of FLOPS regularization: DF-FLOPS. This new regularization technique penalizes the usage of high-DF terms, thereby shortening posting lists and reducing retrieval latency. Unlike other inference-time sparsification methods, such as stopword removal, DF-FLOPS regularization allows for the selective inclusion of high-frequency terms in cases where the terms are truly salient. We find that DF-FLOPS successfully reduces the prevalence of high-DF terms and lowers retrieval latency (around 10x faster) in a production-grade engine while maintaining effectiveness both in-domain (only a 2.2-point drop in MRR@10) and cross-domain (improved performance in 12 out of 13 tasks on which we tested). With retrieval latencies on par with BM25, this work provides an important step towards making LSR practical for deployment in production-grade search engines.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://www.pengxiang.me/404.html">
+  <link rel="alternate" hreflang="en-us" href="https://www.pengxiang.me/publication/sigir2025/">
 
   
 
@@ -213,7 +213,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png">
 
-  <link rel="canonical" href="https://www.pengxiang.me/404.html">
+  <link rel="canonical" href="https://www.pengxiang.me/publication/sigir2025/">
 
   
   
@@ -227,18 +227,61 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Pengxiang Cheng">
-  <meta property="og:url" content="https://www.pengxiang.me/404.html">
-  <meta property="og:title" content="404 Page not found | Pengxiang Cheng">
-  <meta property="og:description" content=""><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="og:url" content="https://www.pengxiang.me/publication/sigir2025/">
+  <meta property="og:title" content="An Alternative to FLOPS Regularization to Effectively Productionize SPLADE-doc | Pengxiang Cheng">
+  <meta property="og:description" content="Learned Sparse Retrieval (LSR) models encode text as weighted term vectors, which need to be sparse to leverage inverted index structures during retrieval. SPLADE, the most popular LSR model, uses FLOPS regularization to encourage vector sparsity during training. However, FLOPS regularization does not ensure sparsity among terms - only within a given query or document. Terms with very high Document Frequencies (DFs) substantially increase latency in production retrieval engines, such as Apache Solr, due to their lengthy posting lists. To address the issue of high DFs, we present a new variant of FLOPS regularization: DF-FLOPS. This new regularization technique penalizes the usage of high-DF terms, thereby shortening posting lists and reducing retrieval latency. Unlike other inference-time sparsification methods, such as stopword removal, DF-FLOPS regularization allows for the selective inclusion of high-frequency terms in cases where the terms are truly salient. We find that DF-FLOPS successfully reduces the prevalence of high-DF terms and lowers retrieval latency (around 10x faster) in a production-grade engine while maintaining effectiveness both in-domain (only a 2.2-point drop in MRR@10) and cross-domain (improved performance in 12 out of 13 tasks on which we tested). With retrieval latencies on par with BM25, this work provides an important step towards making LSR practical for deployment in production-grade search engines."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
     
+      <meta property="article:published_time" content="2025-05-21T23:17:03-04:00">
+    
+    <meta property="article:modified_time" content="2025-07-13T00:00:00&#43;00:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.pengxiang.me/publication/sigir2025/"
+  },
+  "headline": "An Alternative to FLOPS Regularization to Effectively Productionize SPLADE-doc",
+  
+  "datePublished": "2025-05-21T23:17:03-04:00",
+  "dateModified": "2025-07-13T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Aldo Porco"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Pengxiang Cheng",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.pengxiang.me/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Learned Sparse Retrieval (LSR) models encode text as weighted term vectors, which need to be sparse to leverage inverted index structures during retrieval. SPLADE, the most popular LSR model, uses FLOPS regularization to encourage vector sparsity during training. However, FLOPS regularization does not ensure sparsity among terms - only within a given query or document. Terms with very high Document Frequencies (DFs) substantially increase latency in production retrieval engines, such as Apache Solr, due to their lengthy posting lists. To address the issue of high DFs, we present a new variant of FLOPS regularization: DF-FLOPS. This new regularization technique penalizes the usage of high-DF terms, thereby shortening posting lists and reducing retrieval latency. Unlike other inference-time sparsification methods, such as stopword removal, DF-FLOPS regularization allows for the selective inclusion of high-frequency terms in cases where the terms are truly salient. We find that DF-FLOPS successfully reduces the prevalence of high-DF terms and lowers retrieval latency (around 10x faster) in a production-grade engine while maintaining effectiveness both in-domain (only a 2.2-point drop in MRR@10) and cross-domain (improved performance in 12 out of 13 tasks on which we tested). With retrieval latencies on par with BM25, this work provides an important step towards making LSR practical for deployment in production-grade search engines."
+}
+</script>
+
+  
 
   
 
@@ -246,10 +289,13 @@
   
 
 
+  
 
 
 
-  <title>404 Page not found | Pengxiang Cheng</title>
+
+
+  <title>An Alternative to FLOPS Regularization to Effectively Productionize SPLADE-doc | Pengxiang Cheng</title>
 
 </head>
 
@@ -394,50 +440,162 @@
 </nav>
 
 
-  <div class="universal-wrapper pt-3">
-
-  <h1>Page not found</h1>
+  <div class="pub">
 
   
+  <div class="article-container pt-3">
+    <h1>An Alternative to FLOPS Regularization to Effectively Productionize SPLADE-doc</h1>
+
+    
+
+    
+      
+      <div class="article-metadata">
+        
   
-  <form class="d-flex align-items-center mb-3">
-    <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
-  </form>
   
+  <span>Aldo Porco</span>, <span>Dhruv Mehra</span>, <span>Igor Malioutov</span>, <span>Karthik Radhakrishnan</span>, <span>Moniba Keymanesh</span>, <span>Daniel Preoțiuc-Pietro</span>, <span>Sean MacAvaney</span>, and <span><strong>Pengxiang Cheng</strong></span>.
+            <i>SIGIR</i>,
+          2025.
+      </div>
+
+      
+      <div class="btn-links mb-3">
+        
+
+        
+          
+          
+            
+          
+        <a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2505.15070" target="_blank" rel="noopener">
+          PDF
+        </a>
+        
+
+        
+
+
+
+
+
 
   
 
-  <p>Perhaps you were looking for one of these?</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+      </div>
+    
+  </div>
+
+  <div class="article-container">
+
+    
+    
+    <div class="row pb-2">
+      <div class="col-12 col-md-3 pub-row-heading">DOI</div>
+      <div class="col-12 col-md-9">
+        <a href="https://doi.org/10.1145/3726302.3730163" target="_blank" rel="noopener">
+          10.1145/3726302.3730163
+        </a>
+      </div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    
+    <div class="row pb-2">
+      <div class="col-12 col-md-3 pub-row-heading">arXiv</div>
+      <div class="col-12 col-md-9">
+        <a href="https://arxiv.org/abs/2505.15070" target="_blank" rel="noopener">
+          arxiv:2505.15070
+        </a>
+      </div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+      <div class="col-12 col-md-9">Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval</div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-12 col-md-3 pub-row-heading">Type</div>
+      <div class="col-12 col-md-9">
+        
+        
+        <a href="/publication/#1">
+          Conference paper
+        </a>
+        
+      </div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Learned Sparse Retrieval (LSR) models encode text as weighted term vectors, which need to be sparse to leverage inverted index structures during retrieval. SPLADE, the most popular LSR model, uses FLOPS regularization to encourage vector sparsity during training. However, FLOPS regularization does not ensure sparsity among terms - only within a given query or document. Terms with very high Document Frequencies (DFs) substantially increase latency in production retrieval engines, such as Apache Solr, due to their lengthy posting lists. To address the issue of high DFs, we present a new variant of FLOPS regularization: DF-FLOPS. This new regularization technique penalizes the usage of high-DF terms, thereby shortening posting lists and reducing retrieval latency. Unlike other inference-time sparsification methods, such as stopword removal, DF-FLOPS regularization allows for the selective inclusion of high-frequency terms in cases where the terms are truly salient. We find that DF-FLOPS successfully reduces the prevalence of high-DF terms and lowers retrieval latency (around 10x faster) in a production-grade engine while maintaining effectiveness both in-domain (only a 2.2-point drop in MRR@10) and cross-domain (improved performance in 12 out of 13 tasks on which we tested). With retrieval latencies on par with BM25, this work provides an important step towards making LSR practical for deployment in production-grade search engines.</p>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
   
-  
-  <h2>Latest</h2>
-  <ul>
-    
-      <li><a href="/publication/sigir2025/">An Alternative to FLOPS Regularization to Effectively Productionize SPLADE-doc</a></li>
-    
-      <li><a href="/publication/eacl2024/">Unsupervised Contrast-Consistent Ranking with Language Models</a></li>
-    
-      <li><a href="/publication/acl2023/">Overcoming Catastrophic Forgetting in Massively Multilingual Continual Learning</a></li>
-    
-      <li><a href="/publication/iclr2023/">Dataless Knowledge Fusion by Merging Weights of Language Models</a></li>
-    
-      <li><a href="/publication/aaai2020/">Attending to Entities for Better Text Understanding</a></li>
-    
-      <li><a href="/publication/tac2019/">The UTexas System for TAC 2019 SM-KBP Task 3: Hypothesis Detection with Graph Convolutional Networks</a></li>
-    
-      <li><a href="/publication/aaai2019/">Implicit Argument Prediction as Reading Comprehension</a></li>
-    
-      <li><a href="/publication/tac2018/">The UTexas System for TAC SM-KBP Task 3: Probabilistic Generation of Coherent Hypotheses</a></li>
-    
-      <li><a href="/publication/naacl2018/">Implicit Argument Prediction with Event Knowledge</a></li>
-    
-      <li><a href="/publication/cl2016/">Representing Meaning with a Combination of Logical and Distributional Models</a></li>
-    
-  </ul>
-  
 
+
+
+  </div>
 </div>
 
       
