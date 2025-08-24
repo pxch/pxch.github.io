@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="Instruct models, obtained from various instruction tuning or post-training steps, are commonly deemed superior and more usable than their base counterpart. While the model gains instruction following ability, instruction tuning may lead to forgetting the knowledge from pre-training or it may encourage the model being overly conversational or verbose. This, in turn, can lead to degradation of in-context few-shot learning performance. In this work, we study the performance trajectory between base and instruct models by scaling down the strength of instruction-tuning via the partial adaption method. We show that, across several model families and model sizes, reducing the strength of instruction-tuning results in material improvement on a few-shot in-context learning benchmark covering a variety of classic natural language tasks. This comes at the cost of losing some degree of instruction following ability as measured by AlpacaEval. Our study shines light on the potential trade-off between in-context learning and instruction following abilities that is worth considering in practice.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://www.pengxiang.me/publication_types/1/">
+  <link rel="alternate" hreflang="en-us" href="https://www.pengxiang.me/publication/emnlp2025/">
 
   
 
@@ -208,14 +208,12 @@
 
 
   
-  <link rel="alternate" href="/publication_types/1/index.xml" type="application/rss+xml" title="Pengxiang Cheng">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png">
 
-  <link rel="canonical" href="https://www.pengxiang.me/publication_types/1/">
+  <link rel="canonical" href="https://www.pengxiang.me/publication/emnlp2025/">
 
   
   
@@ -229,18 +227,61 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Pengxiang Cheng">
-  <meta property="og:url" content="https://www.pengxiang.me/publication_types/1/">
-  <meta property="og:title" content="1 | Pengxiang Cheng">
-  <meta property="og:description" content=""><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="og:url" content="https://www.pengxiang.me/publication/emnlp2025/">
+  <meta property="og:title" content="Improving Instruct Models for Free: A Study on Partial Adaptation | Pengxiang Cheng">
+  <meta property="og:description" content="Instruct models, obtained from various instruction tuning or post-training steps, are commonly deemed superior and more usable than their base counterpart. While the model gains instruction following ability, instruction tuning may lead to forgetting the knowledge from pre-training or it may encourage the model being overly conversational or verbose. This, in turn, can lead to degradation of in-context few-shot learning performance. In this work, we study the performance trajectory between base and instruct models by scaling down the strength of instruction-tuning via the partial adaption method. We show that, across several model families and model sizes, reducing the strength of instruction-tuning results in material improvement on a few-shot in-context learning benchmark covering a variety of classic natural language tasks. This comes at the cost of losing some degree of instruction following ability as measured by AlpacaEval. Our study shines light on the potential trade-off between in-context learning and instruction following abilities that is worth considering in practice."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2025-11-05T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2025-08-23T22:27:01-04:00">
+    
+    <meta property="article:modified_time" content="2025-11-05T00:00:00&#43;00:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.pengxiang.me/publication/emnlp2025/"
+  },
+  "headline": "Improving Instruct Models for Free: A Study on Partial Adaptation",
+  
+  "datePublished": "2025-08-23T22:27:01-04:00",
+  "dateModified": "2025-11-05T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Ozan İrsoy"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Pengxiang Cheng",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.pengxiang.me/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Instruct models, obtained from various instruction tuning or post-training steps, are commonly deemed superior and more usable than their base counterpart. While the model gains instruction following ability, instruction tuning may lead to forgetting the knowledge from pre-training or it may encourage the model being overly conversational or verbose. This, in turn, can lead to degradation of in-context few-shot learning performance. In this work, we study the performance trajectory between base and instruct models by scaling down the strength of instruction-tuning via the partial adaption method. We show that, across several model families and model sizes, reducing the strength of instruction-tuning results in material improvement on a few-shot in-context learning benchmark covering a variety of classic natural language tasks. This comes at the cost of losing some degree of instruction following ability as measured by AlpacaEval. Our study shines light on the potential trade-off between in-context learning and instruction following abilities that is worth considering in practice."
+}
+</script>
+
+  
 
   
 
@@ -248,10 +289,13 @@
   
 
 
+  
 
 
 
-  <title>1 | Pengxiang Cheng</title>
+
+
+  <title>Improving Instruct Models for Free: A Study on Partial Adaptation | Pengxiang Cheng</title>
 
 </head>
 
@@ -396,160 +440,152 @@
 </nav>
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
+  <div class="pub">
 
   
+  <div class="article-container pt-3">
+    <h1>Improving Instruct Models for Free: A Study on Partial Adaptation</h1>
 
-  
-  
-  
     
-  
-<div class="universal-wrapper pt-3">
-  <h1>1</h1>
 
-  
-
-  
-</div>
-
-
-
-<div class="universal-wrapper">
-  
-
-  
-  
     
-    
-    
-    <div>
-      <h2><a href="/publication/emnlp2025/" >Improving Instruct Models for Free: A Study on Partial Adaptation</a></h2>
-      <div class="article-style">
+      
+      <div class="article-metadata">
         
-          Instruct models, obtained from various instruction tuning or post-training steps, are commonly deemed superior and more usable than their base counterpart. While the model gains instruction following ability, instruction tuning may lead to forgetting …
+  
+  
+  <span>Ozan İrsoy</span>, <span><strong>Pengxiang Cheng</strong></span>, <span>Jennifer L Chen</span>, <span>Daniel Preoțiuc-Pietro</span>, <span>Shiyue Zhang</span>, and <span>Duccio Pappadopulo</span>.
+            <i>EMNLP</i>,
+          2025.
+      </div>
+
+      
+      <div class="btn-links mb-3">
+        
+
+        
+          
+          
+            
+          
+        <a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2504.11626" target="_blank" rel="noopener">
+          PDF
+        </a>
+        
+
+        
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+      </div>
+    
+  </div>
+
+  <div class="article-container">
+
+    
+    
+
+    
+    
+    <div class="row pb-2">
+      <div class="col-12 col-md-3 pub-row-heading">arXiv</div>
+      <div class="col-12 col-md-9">
+        <a href="https://arxiv.org/abs/2504.11626" target="_blank" rel="noopener">
+          arxiv:2504.11626
+        </a>
+      </div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+      <div class="col-12 col-md-9">Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing</div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-12 col-md-3 pub-row-heading">Type</div>
+      <div class="col-12 col-md-9">
+        
+        
+        <a href="/publication/#1">
+          Conference paper
+        </a>
         
       </div>
     </div>
-  
+    <div class="d-md-none space-below"></div>
+    
+
     
     
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Instruct models, obtained from various instruction tuning or post-training steps, are commonly deemed superior and more usable than their base counterpart. While the model gains instruction following ability, instruction tuning may lead to forgetting the knowledge from pre-training or it may encourage the model being overly conversational or verbose. This, in turn, can lead to degradation of in-context few-shot learning performance. In this work, we study the performance trajectory between base and instruct models by scaling down the strength of instruction-tuning via the partial adaption method. We show that, across several model families and model sizes, reducing the strength of instruction-tuning results in material improvement on a few-shot in-context learning benchmark covering a variety of classic natural language tasks. This comes at the cost of losing some degree of instruction following ability as measured by AlpacaEval. Our study shines light on the potential trade-off between in-context learning and instruction following abilities that is worth considering in practice.</p>
     
-    <div>
-      <h2><a href="/publication/sigir2025/" >An Alternative to FLOPS Regularization to Effectively Productionize SPLADE-Doc</a></h2>
-      <div class="article-style">
-        
-          Learned Sparse Retrieval (LSR) models encode text as weighted term vectors, which need to be sparse to leverage inverted index structures during retrieval. SPLADE, the most popular LSR model, uses FLOPS regularization to encourage vector sparsity …
-        
-      </div>
-    </div>
-  
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
     
-    
-    
-    <div>
-      <h2><a href="/publication/eacl2024/" >Unsupervised Contrast-Consistent Ranking with Language Models</a></h2>
-      <div class="article-style">
-        
-          Language models contain ranking-based knowledge and are powerful solvers of in-context ranking tasks. For instance, they may have parametric knowledge about the ordering of countries by size or may be able to rank product reviews by sentiment. We …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/acl2023/" >Overcoming Catastrophic Forgetting in Massively Multilingual Continual Learning</a></h2>
-      <div class="article-style">
-        
-          Real-life multilingual systems should be able to efficiently incorporate new languages as data distributions fed to the system evolve and shift over time. To do this, systems need to handle the issue of catastrophic forgetting, where the model …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/iclr2023/" >Dataless Knowledge Fusion by Merging Weights of Language Models</a></h2>
-      <div class="article-style">
-        
-          Fine-tuning pre-trained language models has become the prevalent paradigm for building downstream NLP models. Oftentimes fine-tuned models are readily available but their training data is not, due to data privacy or intellectual property concerns. …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/aaai2020/" >Attending to Entities for Better Text Understanding</a></h2>
-      <div class="article-style">
-        
-          Recent progress in NLP witnessed the development of large-scale pre-trained language models (GPT, BERT, XLNet, etc.) based on Transformer (Vaswani et al. 2017), and in a range of end tasks, such models have achieved state-of-the-art results, …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/tac2019/" >The UTexas System for TAC 2019 SM-KBP Task 3: Hypothesis Detection with Graph Convolutional Networks</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/aaai2019/" >Implicit Argument Prediction as Reading Comprehension</a></h2>
-      <div class="article-style">
-        
-          Implicit arguments, which cannot be detected solely through syntactic cues, make it harder to extract predicate-argument tuples. We present a new model for implicit argument prediction that draws on reading comprehension, casting the …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/tac2018/" >The UTexas System for TAC SM-KBP Task 3: Probabilistic Generation of Coherent Hypotheses</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/naacl2018/" >Implicit Argument Prediction with Event Knowledge</a></h2>
-      <div class="article-style">
-        
-          Implicit arguments are not syntactically connected to their predicates, and are therefore hard to extract. Previous work has used models with large numbers of features, evaluated on very small datasets. We propose to train models for implicit …
-        
-      </div>
-    </div>
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
+  
 
+
+
+  </div>
 </div>
 
       
